@@ -1,4 +1,4 @@
-import Product from '../components/Product/Product';
+import Product from '../components/ProductCard/ProductCard';
 import styles from './page.module.css';
 
 export default function ProductPage() {
