@@ -4,8 +4,23 @@
     background-image: radial-gradient(circle at center center, #000000, #333333), repeating-radial-gradient(circle at center center, #000000, #000000, 10px, transparent 20px, transparent 10px);
     background-blend-mode: multiply;
     padding: 0 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .productTitle {
     color: rebeccapurple;
+}
+
+.productContainer {
+    padding-bottom: 2rem;
+}
+
+.button {
+    background-color: rebeccapurple;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    text-align: center;
 }
