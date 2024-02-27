@@ -21,8 +21,10 @@ export default function RootLayout({
     <html lang='en'>
       <body>
         <Menu />
-        <h1 className={russo_one.className}>Time travel R us</h1>
-        {children}
+        <div className='page-container'>
+          <h1 className={russo_one.className}>Time travel R us</h1>
+          {children}
+        </div>
       </body>
     </html>
   );

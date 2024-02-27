@@ -5,3 +5,7 @@
     background-blend-mode: multiply;
     padding: 0 2rem 1rem 2rem;
 }
+
+.productTitle {
+    color: rebeccapurple;
+}

@@ -12,7 +12,6 @@ export default function Menu() {
     <nav className={`${styles.menu} ${roboto_mono.className}`}>
       <Link href='/'>Home</Link>
       <Link href='/about'>About</Link>
-      <Link href='/products'>Products</Link>
       <Link href='/contact'>Contact us</Link>
     </nav>
   );

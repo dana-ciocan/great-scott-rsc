@@ -19,7 +19,9 @@ export default function ProductCard({
 }: ProductProps) {
   return (
     <div className={styles.productCard}>
-      <h2 className={russo_one.className}>{productTitle}</h2>
+      <h2 className={`${russo_one.className} ${styles.productTitle}`}>
+        {productTitle}
+      </h2>
       <p>{productDescription}</p>
       <Link href={`/product/${productId}`}>More info</Link>
     </div>
