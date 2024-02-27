@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "title": "DeLorean DMC-12",
+            "description": "Step into the future with the DeLorean DMC-12 – the epitome of automotive innovation and style! With its sleek stainless steel body, iconic gull-wing doors, and cutting-edge design, the DeLorean is more than just a car – it's a statement of sophistication and forward-thinking. Powered by a state-of-the-art PRV V6 engine, the DeLorean delivers a driving experience like no other, combining exhilarating performance with responsive handling. As the star of the silver screen in the blockbuster 'Back to the Future' film series, the DeLorean has captured the imagination of audiences worldwide, cementing its status as an enduring icon of the 1980s. Don't miss your chance to own a piece of automotive history – visit your nearest dealership today and experience the future with the DeLorean DMC-12!"
+        },
+        {
+            "id": "2",
+            "title": "Plutonium",
+            "description": "Introducing plutonium – the key to unlocking unparalleled power and potential! As the most potent energy source known to man, plutonium offers a gateway to limitless possibilities. Whether you're powering a spacecraft on a journey to the stars or fueling cutting-edge research in nuclear science, plutonium stands as the cornerstone of innovation and progress. With its unparalleled energy density and reliability, plutonium ensures that your endeavors reach new heights of success. Don't settle for ordinary – harness the extraordinary power of plutonium and pave the way to a brighter future today!"
+        },
+        {
+            "id": "3",
+            "title": "Flux capacitor",
+            "description": "Introducing the Flux Capacitor – the ultimate tool for those daring enough to defy the constraints of time! With its revolutionary design and cutting-edge technology, the Flux Capacitor offers a gateway to limitless adventure. Whether you're yearning to witness history unfold before your eyes or eager to explore the mysteries of the future, this compact marvel empowers you to transcend the boundaries of time and space with unparalleled ease. Crafted with precision and reliability, the Flux Capacitor is your ticket to a journey unlike any other. Don't wait – seize the opportunity to own this extraordinary piece of innovation and embark on the adventure of a lifetime today!"
+        },
+        {
+            "id": "4",
+            "title": "DeLorean ice scraper",
+            "description": "Introducing the ultimate companion for your DeLorean adventures – the DeLorean Ice Scraper! Engineered with precision and durability, this specially designed tool is your ticket to effortlessly removing frost and ice from your stainless steel beauty. Crafted to handle even the toughest ice buildup, the DeLorean Ice Scraper ensures that your time-traveling journeys are never delayed by inclement weather. Its ergonomic design and sturdy construction make clearing your DeLorean a breeze, so you can hit the road and conquer the elements with confidence. Don't let frosty conditions hold you back – equip yourself with the DeLorean Ice Scraper and keep your DeLorean shining bright, no matter where – or when – your adventures take you!"
+        }
+    ],
+    "comments": [
+        {
+            "id": "1",
+            "text": "a comment about post 1",
+            "postId": "1"
+        },
+        {
+            "id": "2",
+            "text": "another comment about post 1",
+            "postId": "1"
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}
