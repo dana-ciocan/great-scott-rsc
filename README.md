@@ -28,4 +28,12 @@ To declare a client component use, this declaration at the top of the component 
 
 `use client;`
 
-This declares a server-client boundary and
+This declares a network boundary - once a client component has been declared, you can't import and user a server component. However, you can pass a server component as a prop and display it that way.
+
+### What to do in server components
+
+- Data fetching
+
+### What to do in client components
+
+- Managing user state
