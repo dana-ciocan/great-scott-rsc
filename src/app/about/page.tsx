@@ -1,8 +1,6 @@
-import styles from './page.module.css';
-
 export default function AboutPage() {
   return (
-    <main className={styles.main}>
+    <main>
       <p>
         Welcome to Time Travel R Us, your premier destination for all things
         time travel! At Time Travel R Us, we&apos;re passionate about making the
