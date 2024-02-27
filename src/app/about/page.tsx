@@ -1,6 +1,6 @@
 import styles from './page.module.css';
 
-export default function About() {
+export default function AboutPage() {
   return (
     <main className={styles.main}>
       <p>
