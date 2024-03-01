@@ -22,7 +22,7 @@ export default function ProductCard({
 }: ProductProps) {
   const [productCounter, setProductCounter] = useState(0);
 
-  const incrementCounter = (e: MouseEvent) => {
+  const incrementCounter = (e: React.MouseEvent<HTMLElement>) => {
     e.preventDefault();
     setProductCounter(productCounter + 1);
   };
@@ -37,7 +37,7 @@ export default function ProductCard({
       <Link
         href={`/product/${productId}`}
         className={styles.button}
-        onClick={(e) => incrementCounter(e)}
+        onClick={(e: React.MouseEvent<HTMLElement>) => incrementCounter(e)}
       >
         {productCounter === 0 ? 'Add to basket' : `${productCounter} in basket`}
       </Link>
