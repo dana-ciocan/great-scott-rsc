@@ -1,7 +1,7 @@
 import { Russo_One } from 'next/font/google';
 import styles from './layout.module.css';
 
-export const russo_one = Russo_One({
+const russo_one = Russo_One({
   weight: '400',
   subsets: ['latin'],
 });

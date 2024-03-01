@@ -2,7 +2,7 @@ import './globals.css';
 import Menu from './components/Menu/Menu';
 import { Russo_One, Inter } from 'next/font/google';
 
-export const russo_one = Russo_One({
+const russo_one = Russo_One({
   weight: '400',
   subsets: ['latin'],
 });
