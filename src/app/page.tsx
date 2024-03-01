@@ -2,7 +2,7 @@ import ProductCard from './components/ProductCard/ProductCard';
 import { getData } from './utils';
 import styles from './page.module.css';
 
-export default async function ProductsPage() {
+export default async function HomePage() {
   const products = await getData('http://localhost:4000/products');
   return (
     <main className={styles.main}>
