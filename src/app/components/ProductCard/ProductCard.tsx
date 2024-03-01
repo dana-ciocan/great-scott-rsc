@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { useState } from 'react';
 import { Russo_One } from 'next/font/google';
 import styles from './ProductCard.module.css';
 
@@ -17,6 +20,12 @@ export default function ProductCard({
   productDescription,
   productId,
 }: ProductProps) {
+  const [productCounter, setProductCounter] = useState(0);
+
+  const incrementCounter = (e: React.MouseEvent<HTMLElement>) => {
+    e.preventDefault();
+    setProductCounter(productCounter + 1);
+  };
   return (
     <div className={styles.productCard}>
       <div className={styles.productContainer}>
@@ -25,8 +34,12 @@ export default function ProductCard({
         </h2>
         <p>{productDescription}</p>
       </div>
-      <Link href={`/product/${productId}`} className={styles.button}>
-        Add to basket
+      <Link
+        href={`/product/${productId}`}
+        className={styles.button}
+        onClick={(e: React.MouseEvent<HTMLElement>) => incrementCounter(e)}
+      >
+        {productCounter === 0 ? 'Add to basket' : `${productCounter} in basket`}
       </Link>
     </div>
   );
