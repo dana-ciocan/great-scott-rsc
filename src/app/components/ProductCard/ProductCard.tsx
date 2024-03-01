@@ -22,7 +22,7 @@ export default function ProductCard({
 }: ProductProps) {
   const [productCounter, setProductCounter] = useState(0);
 
-  const incrementCounter = (e: Event) => {
+  const incrementCounter = (e: MouseEvent) => {
     e.preventDefault();
     setProductCounter(productCounter + 1);
   };
